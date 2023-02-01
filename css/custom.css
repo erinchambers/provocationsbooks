@@ -1,0 +1,37 @@
+/* To do: move custom styles to child theme */
+
+/* Link hover */
+
+a:hover, a:focus, a:active, article.post .entry-header .entry-meta, article.page .entry-header .entry-meta, article.post .entry-categories, article.page .entry-categories, .entry-content a:hover, .entry-content .tags, .entry-content .tags a, #comments .commentlist article .comment-author, #comments .commentlist article .comment-meta, #commentform label, #commentform .form-allowed-tags, #commentform .form-allowed-tags code, #commentform .comment-notes, #commentform .logged-in-as, #secondary .widget, #footer-widgets .widget, #footer-widgets .widget a:hover  {
+	color: #bf3222;
+}
+
+.category-ill-be-gone-in-a-day-or-two .entry-content .no-spacing p { 
+	font-family: Helvetica, Arial, sans-serif; 
+	margin: 0px;
+}
+
+.category-ill-be-gone-in-a-day-or-two .entry-content img {
+	box-shadow: none;
+}
+
+/* Hawley pagination */
+
+.category-ill-be-gone-in-a-day-or-two .entry-content .toc-pager {
+  padding: 0px !important;
+	border-bottom: 0px;
+	width: initial;
+}
+
+.category-ill-be-gone-in-a-day-or-two .entry-content .toc-pager td {
+
+	padding-right: 20px;
+}
+
+.category-ill-be-gone-in-a-day-or-two .entry-content .toc-pager td:first-child {
+	text-align: left;
+}
+
+.jmetapage a {
+	color: #ef402b !important;
+}
