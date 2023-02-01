@@ -1,0 +1,471 @@
+/*
+ Theme Name:   Provocations (Vantage Child)
+ Theme URI:    None
+ Description:  Vantage Child Theme created for Provocations Books
+ Author:       Design by James MacDougall, child configuration by Erin Chambers
+ Author URI:   http://www.unl.edu/english/
+ Template:     vantage
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         siteorigin, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  vantage-child
+*/
+
+/* Custom CSS */
+
+li avatar {
+margin-bottom: 10px;
+}
+
+/* Tables */
+.page-id-337 table {
+  align: inherit !important;
+  margin: 0 0 0em 0 !important;
+  width: 334px;
+  max-width: 334px;
+}
+
+/* Links */
+
+a {
+  text-decoration: none;
+}
+
+/* Colors */
+a,
+#page-title,
+article.post .entry-header .entry-meta a,
+article.page .entry-header .entry-meta a,
+article.post .entry-categories a,
+article.page .entry-categories a, 
+.entry-content a,
+.entry-content h1,
+#secondary .widget .widget-title a:hover,
+#footer-widgets .widget .widget-title a:hover,
+#footer-widgets .widget a 
+ {
+  color: #ef402b;
+}
+
+
+a:hover,
+a:focus,
+a:active,
+a:visited,
+article.post .entry-header .entry-meta,
+article.page .entry-header .entry-meta,
+article.post .entry-categories,
+article.page .entry-categories,
+.entry-content a:hover,
+.entry-content .tags,
+.entry-content .tags a,
+#comments .commentlist article .comment-author,
+#comments .commentlist article .comment-meta,
+#commentform label,
+#commentform .form-allowed-tags,
+#commentform .form-allowed-tags code,
+#commentform .comment-notes,
+#commentform .logged-in-as,
+#secondary .widget,
+#footer-widgets .widget,
+#footer-widgets .widget a:hover 
+{
+  color: #747474;
+}
+/* Alignment */
+body,
+button,
+input,
+select,
+textarea {
+  word-wrap: break-word;
+}
+
+.vertical-text {
+	transform: rotate(-90deg);
+	transform-origin: center middle 6;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.alignright {
+  float: right;
+  text-align: right;
+  display: block;
+  margin-top: 1.0em;
+  padding-top: 1.0em;
+}
+
+.aligncenter {
+  text-align: center;
+}
+
+#masthead {
+  height: 207px;
+  text-align:left;
+}
+
+/* Journal TOC */
+
+.jmetapage {
+   font-family: arial;
+   font-size: 0.85em;
+   color: #747474;
+   font-weight: normal;
+   margin-bottom: 0px;
+    margin-top: 0px;
+   align: left;
+}
+
+.jmetapage a {
+   font-family: arial;
+   font-size: 0.95em;
+   color: #747474;
+   font-weight: normal;
+   margin-bottom: 0px;
+   margin-top: 0px;
+   align: left;
+   text-decoration: none;
+}
+.jmetapage a:hover {
+   font-family: arial;
+   font-size: 0.95em;
+   color: #ef402b;
+   font-weight: normal;
+   margin-bottom: 0px;
+    margin-top: 0px;
+   align: left;
+}
+
+.jissuetitle {
+ /*font-size: 1.2em;*/
+   font-size: 12px;
+   color: #ef402b;
+   font-weight: bold;
+   margin-bottom: 2px;
+   /*letter-spacing: 1px;*/
+}
+.jtitle {
+/*font-size: 1.2em;*/
+   font-size: 12px;
+   color: #ef402b;
+   font-weight: normal;
+   margin-bottom: 0px;
+   /*letter-spacing: 1px;*/
+}
+
+.jtitle a {
+/*font-size: 1.2em;*/
+   font-size: 12px;
+   color: #ef402b;
+   font-weight: normal;
+   margin-bottom: 0px;
+  text-decoration: none;
+   /*letter-spacing: 1px;*/
+}
+
+.jtitle a:hover {
+/*font-size: 1.2em;*/
+   font-size: 12px;
+   color: #747474;
+   font-weight: normal;
+   margin-bottom: 0px;
+   /*letter-spacing: 1px;*/
+}
+
+.jauthor {
+/*font-size: 1.2em;*/
+   font-size: 12px;
+   color: #ef402b;
+   font-weight: normal;
+   text-transform: uppercase;
+   margin-bottom: 1px;
+   /*letter-spacing: 1px;*/
+}
+
+.jauthor a {
+/*font-size: 1.2em;*/
+   font-size: 12px;
+   color: #ef402b;
+   font-weight: normal;
+   text-transform: uppercase;
+   text-decoration: none;
+   margin-bottom: 1px;
+   /*letter-spacing: 1px;*/
+}
+
+.jauthor a:hover {
+/*font-size: 1.2em;*/
+   font-size: 12px;
+   color: #747474;
+   font-weight: normal;
+   text-transform: uppercase;
+   margin-bottom: 0px;
+   padding-bottom: 0px;
+   /*letter-spacing: 1px;*/
+}
+
+.jauthorpage {
+   font-size: 16px;
+   color: #ef402b;
+   font-weight: normal;
+   text-transform: uppercase;
+   margin-bottom: 0px;
+   /*letter-spacing: 1px;*/
+}
+
+.jmeta {
+font-family: arial;
+/*font-size: 1.2em;*/
+   font-size: 0.95em;
+   color: #747474;
+   font-weight: normal;
+   margin-bottom: 0px;
+   align: left;
+   /*letter-spacing: 1px;*/
+}
+
+.jmeta a {
+font-family: arial;
+/*font-size: 1.2em;*/
+   font-size: 0.95em;
+   color: #747474;
+   font-weight: normal;
+   margin-bottom: 0px;
+   text-decoration: none;
+   align: left;
+   /*letter-spacing: 1px;*/
+}
+
+.jmeta a:hover {
+font-family: arial;
+/*font-size: 1.2em;*/
+   font-size: 0.95em;
+   color: #ef402b;
+   font-weight: normal;
+   margin-bottom: 0px;
+   align: left;
+   /*letter-spacing: 1px;*/
+}
+
+
+/* Code for logo image rollover */
+a.rollover {
+	display: block;
+	width: 86px;
+	height: 104px;
+	text-decoration: none;
+	background: url("http://provocationsbooks.com/wp/wp-content/uploads/2016/06/PSpriteFinalFull.png");
+	}
+
+a.rollover:hover {
+  background-position: 0px -728px;
+  opacity: 100;
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+	}
+
+.displace {
+	position: absolute;
+	left: -5000px;
+	}
+
+a.rolloverR {
+	display: block;
+	width: 79px;
+	height: 104px;
+	text-decoration: none;
+	background: url("http://provocationsbooks.com/wp/wp-content/uploads/2016/04/RSprite.png");
+	}
+
+/*a.rolloverR:hover {
+	background-position: 0px -104px;
+  opacity: 100;
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+	}*/
+
+a.rolloverO {
+	display: block;
+	width: 80px;
+	height: 104px;
+	text-decoration: none;
+	background: url("http://provocationsbooks.com/wp/wp-content/uploads/2016/04/OSprite.png");
+	}
+
+/*a.rollover:hover {
+	background-position: 0px -104px;
+  opacity: 0;
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+	}*/
+
+a.rolloverV {
+	display: block;
+	width: 85px;
+	height: 104px;
+	text-decoration: none;
+	background: url("http://provocationsbooks.com/wp/wp-content/uploads/2016/04/VSprite.png");
+	}
+
+/*a.rollover:hover {
+	background-position: 0px -104px;
+  opacity: 0;
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+	}*/
+
+a.rolloverO2 {
+	display: block;
+	width: 86px;
+	height: 113px;
+	text-decoration: none;
+	background: url("http://provocationsbooks.com/wp/wp-content/uploads/2016/06/OSpriteFinalFull.png");
+	}
+
+a.rolloverO2:hover {
+	background-position: 0px -791px;
+  opacity: 100;
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+	}
+
+a.rolloverC {
+	display: block;
+	width: 79px;
+	height: 113px;
+	text-decoration: none;
+	background: url("http://provocationsbooks.com/wp/wp-content/uploads/2016/06/CSpriteFinalFull.png");
+	}
+
+a.rolloverC:hover {
+	background-position: 0px -791px;
+  opacity: 100;
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+	}
+
+a.rolloverA {
+	display: block;
+	width: 80px;
+	height: 113px;
+	text-decoration: none;
+	background: url("http://provocationsbooks.com/wp/wp-content/uploads/2016/06/ASpriteFinalFull.png");
+	}
+
+a.rolloverA:hover {
+	background-position: 0px -791px;
+  opacity: 100;
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+	}
+
+a.rolloverT {
+	display: block;
+	width: 85px;
+	height: 113px;
+	text-decoration: none;
+	background: url("http://provocationsbooks.com/wp/wp-content/uploads/2016/04/TSprite.png");
+	}
+
+/*a.rollover:hover {
+	background-position: 0px -104px;
+  opacity: 0;
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+	}*/
+
+a.rolloverI {
+	display: block;
+	width: 86px;
+	height: 113px;
+	text-decoration: none;
+	background: url("http://provocationsbooks.com/wp/wp-content/uploads/2016/04/ISprite.png");
+	}
+
+/*a.rollover:hover {
+	background-position: 0px -104px;
+  opacity: 0;
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+	}*/
+
+a.rolloverO3 {
+	display: block;
+	width: 79px;
+	height: 113px;
+	text-decoration: none;
+	background: url("http://provocationsbooks.com/wp/wp-content/uploads/2016/04/O3Sprite.png");
+	}
+
+/*a.rollover:hover {
+	background-position: 0px -104px;
+  opacity: 0;
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+	}*/
+
+a.rolloverN {
+	display: block;
+	width: 80px;
+	height: 113px;
+	text-decoration: none;
+	background: url("http://provocationsbooks.com/wp/wp-content/uploads/2016/06/NSpriteFinalFull.png");
+	}
+
+a.rolloverN:hover {
+	background-position: 0px -791px;
+  opacity: 100;
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+	}
+
+a.rolloverS {
+	display: block;
+	width: 86px;
+	height: 113px;
+	text-decoration: none;
+	background: url("http://provocationsbooks.com/wp/wp-content/uploads/2016/07/SSpriteFinalFull.png");
+	}
+
+a.rolloverS:hover {
+	background-position: 0px -791px;
+  opacity: 100;
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+	}
+
+
+/*a.rollover:hover {
+	background-position: 0px -104px;
+  opacity: 0;
+  -webkit-transition: all 0.8s ease;
+  -moz-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+	}*/
